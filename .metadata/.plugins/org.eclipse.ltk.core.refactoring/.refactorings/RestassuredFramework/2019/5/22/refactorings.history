@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;getRequest&apos; to &apos;RestassuredFramework/src/test/java&apos;&#x0D;&#x0A;- Original project: &apos;RestassuredFramework&apos;&#x0D;&#x0A;- Destination element: &apos;RestassuredFramework/src/test/java&apos;&#x0D;&#x0A;- Original element: &apos;RestassuredFramework/src/main/java/getRequest&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="/src\/test\/java" element1="/src\/main\/java&lt;getRequest" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1559268901296" version="1.0"/>
+</session>

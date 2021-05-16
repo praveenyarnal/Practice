@@ -1,0 +1,15 @@
+package com.sample.testng;
+
+import org.testng.annotations.Test;
+
+public class Testcase1 {
+
+	
+	@Test
+	public void testFB(){
+		
+		System.out.println("Running FB");
+		
+		
+	}
+}

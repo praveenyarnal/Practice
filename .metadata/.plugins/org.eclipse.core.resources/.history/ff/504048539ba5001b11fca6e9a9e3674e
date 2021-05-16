@@ -1,0 +1,19 @@
+package mukesh.authentication;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+public class OAth2 {
+
+	@Test
+	public void test1()
+	{
+		Response resp=  RestAssured.given().auth().oauth2("")
+				.post("");
+		System.out.println("Code"+resp.getStatusCode());
+		
+		System.out.println("Body"+ resp.getBody().asString());
+	}
+}

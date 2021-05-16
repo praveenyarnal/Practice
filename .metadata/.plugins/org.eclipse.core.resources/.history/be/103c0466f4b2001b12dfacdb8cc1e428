@@ -1,0 +1,16 @@
+package com.stream.demo;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+
+
+public class StreamMethods {
+
+	public static void main(String[] args) {
+		List<Integer> values=Arrays.asList(1,2,3,4,1);
+		Stream<Integer> countNum= values.stream().distinct();
+		countNum.forEach(i->System.out.println(i));
+	}
+
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Assignment]">
+  <test thread-count="1" name="Assignment(failed)">
+    <classes>
+      <class name="Com.TestAssignment.FB.test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_FacebookPostComment" invocation-numbers="0"/>
+          <include name="updateResult"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- Com.TestAssignment.FB.test -->
+    </classes>
+  </test> <!-- Assignment(failed) -->
+</suite> <!-- Failed suite [Assignment] -->

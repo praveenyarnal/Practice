@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="E:\Java_Practice\Projects\ModularFramework"/>
+		<item value="C:\Users\HP\Desktop\Selenium\xframium-java"/>
+		<item value="C:\Users\HP\git\xframium-java"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\Selenium\Projects\PageObjectModel"/>
+			<item value="C:\Users\HP\workspace\xframium-testing-java"/>
+			<item value="E:\Java_Practice\Projects\ModularFramework"/>
+			<item value="C:\Users\HP\Downloads\xframium-java-master\xframium-testing-java"/>
+			<item value="C:\Users\HP\Downloads\xframium-java-master\sampleWebTest"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="381" key="DIALOG_X_ORIGIN"/>
+		<item value="185" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

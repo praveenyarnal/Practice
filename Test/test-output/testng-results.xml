@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1412" started-at="2021-05-10T05:33:18Z" finished-at="2021-05-10T05:33:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1412" started-at="2021-05-10T05:33:18Z" finished-at="2021-05-10T05:33:20Z">
+      <class name="Com.TestAssignment.FB.test">
+        <test-method status="PASS" signature="initializeTestBaseSetup()[pri:0, instance:Com.TestAssignment.FB.test@7085bdee]" name="initializeTestBaseSetup" is-config="true" duration-ms="3355" started-at="2021-05-10T05:33:15Z" finished-at="2021-05-10T05:33:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Com.TestAssignment.FB.test@7085bdee]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-05-10T05:33:18Z" finished-at="2021-05-10T05:33:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="verify_Add_ReviewComments(java.lang.reflect.Method)[pri:0, instance:Com.TestAssignment.FB.test@7085bdee]" name="verify_Add_ReviewComments" duration-ms="895" started-at="2021-05-10T05:33:18Z" finished-at="2021-05-10T05:33:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Com.TestAssignment.FB.test.verify_Add_ReviewComments(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Com.Test.AssignmentImpl.WalletHubRatingImpl.verify_Add_ReviewComments(WalletHubRatingImpl.java:19)
+at Com.Test.AssignmentImpl.ClassInvoker.verify_Add_ReviewComments(ClassInvoker.java:19)
+at Com.TestAssignment.FB.test.verify_Add_ReviewComments(test.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Add_ReviewComments -->
+        <test-method status="PASS" signature="updateResult(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:Com.TestAssignment.FB.test@7085bdee]" name="updateResult" is-config="true" duration-ms="195" started-at="2021-05-10T05:33:19Z" finished-at="2021-05-10T05:33:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Com.TestAssignment.FB.test.verify_Add_ReviewComments(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verify_Add_ReviewComments status=FAILURE method=test.verify_Add_ReviewComments(java.lang.reflect.Method)[pri:0, instance:Com.TestAssignment.FB.test@7085bdee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+        <test-method status="FAIL" signature="verify_FacebookPostComment(java.lang.reflect.Method)[pri:0, instance:Com.TestAssignment.FB.test@7085bdee]" name="verify_FacebookPostComment" duration-ms="95" started-at="2021-05-10T05:33:19Z" finished-at="2021-05-10T05:33:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Com.TestAssignment.FB.test.verify_FacebookPostComment(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Com.Test.AssignmentImpl.LoginPageImpl.loginToFaceBook(LoginPageImpl.java:18)
+at Com.Test.AssignmentImpl.ClassInvoker.LogintoFaceBook(ClassInvoker.java:14)
+at Com.TestAssignment.FB.test.verify_FacebookPostComment(test.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_FacebookPostComment -->
+        <test-method status="PASS" signature="updateResult(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:Com.TestAssignment.FB.test@7085bdee]" name="updateResult" is-config="true" duration-ms="181" started-at="2021-05-10T05:33:19Z" finished-at="2021-05-10T05:33:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Com.TestAssignment.FB.test.verify_FacebookPostComment(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verify_FacebookPostComment status=FAILURE method=test.verify_FacebookPostComment(java.lang.reflect.Method)[pri:0, instance:Com.TestAssignment.FB.test@7085bdee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+      </class> <!-- Com.TestAssignment.FB.test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,31 @@
+package mukesh.authentication;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+public class OAth2 {
+
+	@Test
+	public void test1()
+	{
+		/*//Response object is used to store the Response from Rest assured request.
+		Response resp=  RestAssured.given().auth().oauth2("3007fc60ed120eda70124c2bc52183376c00a620")
+				.when().post("http://coop.apps.symfonycasts.com/api/1859/toiletseat-down");
+		System.out.println("Code "+resp.getStatusCode());
+		
+		System.out.println("Body \n"+ resp.getBody().asString());*/
+		
+		Response resp= RestAssured.
+				given()
+				.formParam("client_id", "Praveen")
+				.formParam("client_secret", "3727254f59fdfdaf3e53e70fef5506e1")
+				.formParam("grant_type", "client_credentials")
+				.post("http://coop.apps.symfonycasts.com/token");
+		System.out.println(resp.jsonPath().prettify());
+				
+		
+		
+	}
+}

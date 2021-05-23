@@ -17,6 +17,7 @@ public class RunTestNG {
 		String[] arrprojectName=strdirPath.split("\\\\");
 		String strProjectName=arrprojectName[arrprojectName.length-1];
 		String strSuitePath=strdirPath+"\\Suite.xml";
+		strSuitePath="C:\\Users\\HP\\workspace\\Test\\Suite.xml";
 		suitefiles.add(strSuitePath);
 		runner.setTestSuites(suitefiles);
 		runner.run();

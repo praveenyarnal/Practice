@@ -11,7 +11,7 @@ public class DemoExcelDriver {
 		
 		String cellData=excel.getCellData("Login", 1, 2);
 		System.out.println("Value from Excel "+cellData);
-		excel.setCellData("Login", 1, 3, "123");
+		excel.setCellData("Sheet2", 1, 3, "123");
 		List<String> excelData=excel.getAllCellValuesOfRow("Login", 1);
 		System.out.println(excelData);
 		excel.save();
